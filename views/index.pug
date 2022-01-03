@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    //- heading
+    h1 Hi Everyone,
+
+    //- description for portfolio, 
+    p This is my Portfolio website to showcase myself and some projects that i ve worked on.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in data.projects 
+        .cell
+          a(href=`projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name} Thumbnail`)
+            h5= project.project_name

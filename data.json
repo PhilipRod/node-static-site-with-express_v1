@@ -1,0 +1,28 @@
+{
+    "projects":[
+        {
+            "id":0,
+            "project_name": "Profile site",
+            "description": "personal website displaying information about me ",
+            "technologies":["html", "css","js"],
+            "live_link" : "https://philiprod.github.io/profile_page_v1/",
+            "github_link" : "https://github.com/PhilipRod/profile_page_v1",
+            "image_urls":[
+                "/static/images/p1/p1-550.jpg",
+                "/static/images/p1/p1.jpg"
+            ]
+        },
+        {
+            "id":1,
+            "project_name": "interactive registration form",
+            "description": "Mobile first responsible and interactive registration form",
+            "technologies":["html", "css","js"] ,
+            "live_link":"https://philiprod.github.io/interactive_registration_form/",
+            "github_link":"https://github.com/PhilipRod/interactive_registration_form",
+            "image_urls":[
+                "/static/images/p2/p2-550.jpg",
+                "/static/images/p2/p2.jpg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+
+        //- add the project title
+        h1= `${project_name}`
+
+        //- add the project description
+        p= `${description}`
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+
+          //- technologies used for each project
+          each technology in technologies
+            li= technology
+
+        //- links to live and github repo of project
+        a.btn-link(href=`${live_link}` target= '_blank') Live Demo
+        a.btn-link(href=`${github_link}` target= '_blank') GitHub Repo
+
+    .project-img-box.box
+
+      //- add project image and descriptions to the alt attributes
+      each image_url in image_urls.slice(1)
+        img.project-img(src=`${image_url}`, alt=`${description}`)
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
