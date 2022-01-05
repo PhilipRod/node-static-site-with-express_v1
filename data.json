@@ -23,6 +23,43 @@
                 "/static/images/p2/p2-550.jpg",
                 "/static/images/p2/p2.jpg"
             ]
+        },
+        {
+            "id":2,
+            "project_name":"responsive registration form",
+            "description": "responsive registration form that works on all screens",
+            "technologies":["html", "css","js"],
+            "live_link":"https://philiprod.github.io/responsive_registration_form_v1/",
+            "github_link":"https://github.com/PhilipRod/responsive_registration_form_v1",
+            "image_urls":[
+                "/static/images/p3/p3-550.jpg",
+                "/static/images/p3/p3.jpg"
+            ]
+
+        },
+        {
+            "id":3,
+            "project_name":"quotes generator",
+            "description":"Random quotes generator",
+            "technologies":["html", "css","js"],
+            "live_link":"https://philiprod.github.io/random_quotes_generator_v1/",
+            "github_link":"https://github.com/PhilipRod/random_quotes_generator_v1",
+            "image_urls":[
+                "/static/images/p4/p4-550.jpg",
+                "/static/images/p4/p4.jpg"
+            ]
+        },
+        {
+            "id":4,
+            "project_name":"Wheel of success",
+            "description":"Word Guessing Game",
+            "technologies":["html", "css","js"],
+            "live_link":"https://philiprod.github.io/word_guessing_game_v1/",
+            "github_link":"https://github.com/PhilipRod/word_guessing_game_v1",
+            "image_urls":[
+                "/static/images/p5/p5-550.jpg",
+                "/static/images/p5/p5.jpg"
+            ]
         }
     ]
 }
